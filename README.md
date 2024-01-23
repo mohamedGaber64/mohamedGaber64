@@ -1,26 +1,26 @@
-<h1 align="center">Hi 👋, I'm Mohamed Gaber </h1>
-<h3 align="center"> Junior Backend Developer | Python Django </h3>
+<h1 align="center"> Hi 👋, I'm Mohamed Gaber </h1>
+<h3 align="center"> system admin & cloud Engineer  </h3>
 
 
 
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=30&duration=3000&pause=503&center=true&vCenter=true&width=1000&lines=Hello+Everyone;My+name+is+Mohamed Gaber +.;I+am+a+Software+Developer+.;and+my+interests+include+%5BPython+%2C+Django+%2C+Rest+Framework%5D" alt="Typing SVG" /></a>
 
-```python
+python
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
 @api_view(['POST'])
 def introduce_yourself(request):
     name = request.data.get('name', Mohamed Gaber')
-    occupation = request.data.get('occupation', 'Software Developer')
-    interests = request.data.get('interests', ['Python', 'Django', 'Rest Framework'])
+    occupation = request.data.get('occupation', 'system admin & cloud Engineer')
+    interests = request.data.get('interests', ['RHCSA', 'BASH', 'CCNA', 'DB SQL','CLOUD'])
 
     introduction = f"Hello, my name is {name}. I am a {occupation} and my interests include {', '.join(interests)}."
 
     return Response({'introduction': introduction})
-```
-""" """
+
+
 
 <hr>
 
@@ -74,9 +74,9 @@ def introduce_yourself(request):
   <a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer">
     <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain.svg" alt="django" width="40" height="40"/>
   </a>
-  <!--<a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">
     <img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>
- </a> -->
+ </a> 
   
  <!-- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> </a> --> 
  </p>
@@ -86,9 +86,9 @@ def introduce_yourself(request):
 
     🙂 I am Mohamed Gaber And Im 24 years old.
 
-    📍 I am Egyptian and I live in Beni suef,Egypt.
+    📍 I am Egyptian and I live in cairo, Egypt.
    
-    😎 Interested in contributing expertise in web development.
+    😎 Interested in contributing expertise in system administration and cloud .
 
     👯 Looking to collaborate on Innovative Projects.
 
@@ -96,7 +96,7 @@ def introduce_yourself(request):
 
     📚 Love reading books on personal development.
 
-    💬 Ask me about Web.
+    💬 Ask me about cloud.
 
 
 
