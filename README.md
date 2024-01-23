@@ -11,7 +11,7 @@ from rest_framework.response import Response
 def introduce_yourself(request):
     name = request.data.get('name', Mohamed Gaber')
     occupation = request.data.get('occupation', 'system admin & cloud Engineer')
-    interests = request.data.get('interests', [ ])
+    interests = request.data.get('interests', [ 'cloud' ])
 
     introduction = f"Hello, my name is {name}. I am a {occupation} and my interests include {', '.join(interests)}."
 
