@@ -1,7 +1,7 @@
 <h1 align="center"> Hi 👋, I'm Mohamed Gaber </h1>
-<h3 align="center"> system admin & cloud Engineer  </h3>
+<h3 align="center"> system administrator  </h3>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=30&duration=3000&pause=503&center=true&vCenter=true&width=1000&lines=Hello+Everyone;My+name+is+Mohamed Gaber +.;I+am+a+system admin+and+Devops Engineer+.;and+my+interests+include+%5Badministration+%2C+DevOps Tools+%2C+%5D" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=30&duration=3000&pause=503&center=true&vCenter=true&width=1000&lines=Hello+Everyone;My+name+is+Mohamed Gaber +.;I+am+a+system administration+specialist+.;and+my+interests+include+%5BAdministration+%2C+Cloud+%2C+%5D" alt="Typing SVG" /></a>
 
 python
 from rest_framework.decorators import api_view
@@ -11,7 +11,7 @@ from rest_framework.response import Response
 def introduce_yourself(request):
     name = request.data.get('name', Mohamed Gaber')
     occupation = request.data.get('occupation', 'system admin & cloud Engineer')
-    interests = request.data.get('interests', [ 'cloud','DevOps' ])
+    interests = request.data.get('interests', [ 'Administration','Cloud' ])
 
     introduction = f"Hello, my name is {name}. I am a {occupation} and my interests include {', '.join(interests)}."
 
